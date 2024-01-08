@@ -181,3 +181,12 @@ img {
   height: 430px;
   margin-right: 106px;
 }
+
+/* Address New Park Hotel Style Start Here */
+
+.text-primary {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
