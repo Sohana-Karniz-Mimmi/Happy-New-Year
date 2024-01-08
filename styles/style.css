@@ -235,6 +235,7 @@ img {
   font-family: "Merriweather", serif;
   font-size: 40px;
   font-weight: 900;
+  padding: 15px 0;
 }
 
 .offer-descriptioin {
@@ -263,16 +264,19 @@ img {
   width: 276px;
 }
 
-.offer-content img {
-  width: 100px;
-}
-
 .offer-content-title {
   font-family: "Inter", sans-serif;
-  font-size: 45px;
+  font-size: 39px;
   font-weight: 700;
+  margin-top: 50px;
 }
 
 .offer-content-description {
   font-size: 16px;
+  padding: 16px 0;
+}
+
+.offer-images{
+  width: 90px;
+  padding-top: 20px;
 }
