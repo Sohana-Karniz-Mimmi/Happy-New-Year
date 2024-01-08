@@ -37,8 +37,14 @@ p {
   cursor: pointer;
 }
 
-/*Header Style Start Here */
+section{
+    margin-bottom: 100px;
+}
 
+/*Header Style Start Here */
+.header{
+    margin-bottom: 100px;
+}
 .banner {
   /* padding:100px 0;  */
   border-radius: 16px;
@@ -67,8 +73,46 @@ p {
 }
 
 .banner-titile {
+  text-align: center;
+  font-size: 62px;
+  width: 550px;
+  margin-top: 13px;
+}
+
+/* 65% OFF Section Start Here */
+
+.discount-65 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 50px;
+}
+
+.discount-title {
+  color: #f00;
+  font-size: 78px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.discount-description {
+  color: #f00;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.discount-subtitle {
+  color: #070211;
+  font-size: 41px;
+  font-weight: 700;
+}
+
+.discount-img{
     text-align: center;
-    font-size: 62px;
-    width: 550px;
-    margin-top: 13px;
+    width: 700px;
+  margin: 0 auto;
+}
+
+.discount-img img {
+    width: 100%;
 }
