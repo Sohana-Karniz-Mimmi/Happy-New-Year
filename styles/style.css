@@ -186,7 +186,12 @@ img {
 
 .text-primary {
   color: #f00;
+}
+
+.address{
+  color: #070211;
+
   font-family: "Inter", sans-serif;
-  font-size: 32px;
-  font-weight: 600;
+font-size: 32px;
+font-weight: 600;
 }
