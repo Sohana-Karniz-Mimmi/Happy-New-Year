@@ -300,3 +300,20 @@ img {
   margin-top: 20px;
   font-weight: 500;
 }
+
+/* Awesome style here*/
+
+.awesome-img-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.single-item {
+  width: calc(33.33% - 10px);
+}
+
+.awesome-description {
+  margin-bottom: 40px;
+}
