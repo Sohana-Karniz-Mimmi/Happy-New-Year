@@ -38,7 +38,6 @@ p {
   border: none;
   padding: 14px 26px;
   border-radius: 5px;
-
 }
 
 section {
@@ -165,7 +164,7 @@ img {
 .btn-joinNow {
   color: #fff;
   text-align: center;
- font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 700;
   background: transparent;
@@ -201,9 +200,6 @@ img {
   text-align: center;
 }
 
-.new-park-hotel {
-}
-
 .text-primary {
   color: #f00;
 }
@@ -211,11 +207,72 @@ img {
 .address {
   color: #070211;
   font-family: "Inter", sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
   margin-bottom: 12px;
 }
 
-.btn-hotel{
+.btn-hotel {
   margin-top: 40px;
+}
+
+/* New Best Offer Style Start Here */
+
+.new-offer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer-title {
+  color: #f00;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sub-title {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.offer-descriptioin {
+  font-size: 16px;
+}
+
+.coming-soon {
+  width: 320px;
+}
+.offer-img {
+  width: 300px;
+  height: 300px;
+  border: 10px solid red;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer-circle {
+  width: 235px;
+  height: 235px;
+}
+
+.offer-content {
+  width: 276px;
+}
+
+.offer-content img {
+  width: 100px;
+}
+
+.offer-content-title {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.offer-content-description {
+  font-size: 16px;
 }
