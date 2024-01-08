@@ -31,10 +31,14 @@ p {
   color: #fff;
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   background: #f00;
   cursor: pointer;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 5px;
+
 }
 
 section {
@@ -161,7 +165,7 @@ img {
 .btn-joinNow {
   color: #fff;
   text-align: center;
-  font-family: Inter;
+ font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 700;
   background: transparent;
@@ -178,20 +182,40 @@ img {
 
 .welcome-img {
   width: 270px;
-  height: 430px;
+  height: 420px;
   margin-right: 106px;
 }
 
 /* Address New Park Hotel Style Start Here */
 
+.address-hotel {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.new-park-hotel {
+}
+
 .text-primary {
   color: #f00;
 }
 
-.address{
+.address {
   color: #070211;
-
   font-family: "Inter", sans-serif;
-font-size: 32px;
-font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.btn-hotel{
+  margin-top: 40px;
 }
