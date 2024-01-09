@@ -172,6 +172,7 @@ img {
   border: 1px solid #ff0000;
   padding: 14px 22px;
   transition: all 1.1s;
+  cursor: pointer;
 }
 
 .btn-joinNow:hover {
