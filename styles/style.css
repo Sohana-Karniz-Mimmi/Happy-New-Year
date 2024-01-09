@@ -378,3 +378,33 @@ img {
   right: 100px;
   font-weight: 600;
 }
+
+/* footer styles start here  */
+
+footer{
+  background: #070211;
+  color: #fff;
+}
+
+.footer-contact{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-link{
+  text-align: center;
+}
+
+.copy-right{
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-icon{
+  width: 20px;
+  /* background:black ; */
+}
+
+.social-icon{
+  width: 50px;
+}
