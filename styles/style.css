@@ -300,6 +300,51 @@ img {
   font-weight: 500;
 }
 
+/* Holidays Images styles */
+
+.holiday-images {
+  position: relative;
+  padding-top: 50px;
+}
+.holiday-bottom-img {
+  margin-top: -125px !important;
+  height: 200px;
+}
+
+.discount-fifty{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  position: absolute;
+  top: 130px;
+  right: 278px;
+}
+
+.holiday-bottom-img img {
+  height: 100%;
+}
+
+.holiday-img-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.holiday-box {
+  width: 600px;
+  z-index: 5;
+}
+
+.holiday-box img {
+  position: relative;
+  top: 50px;
+  left: 15px;
+}
+
+.discount-50 {
+  width: 375px;
+  position: relative;
+}
+
 /* Awesome style here*/
 
 .awesome-img-items {
@@ -355,7 +400,6 @@ img {
 .subscribe-box {
   position: relative;
   margin: 45px 0;
-
 }
 .input-email {
   width: 70%;
@@ -381,12 +425,12 @@ img {
 
 /* footer styles start here  */
 
-footer{
+footer {
   background: #070211;
   color: #fff;
 }
 
-.footer-contact{
+.footer-contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -394,17 +438,17 @@ footer{
   border-bottom: 1px solid #363434;
 }
 
-.contact-address{
+.contact-address {
   color: #fff;
-    line-height: 30px;
+  line-height: 30px;
 }
 
-.contact-icon{
+.contact-icon {
   display: flex;
   align-items: center;
 }
 
-.contact-site{
+.contact-site {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -412,33 +456,31 @@ footer{
   margin-right: 110px;
 }
 
-.f-icon{
+.f-icon {
   width: 20px;
   margin-right: 15px;
 }
 
-.web-icon{
+.web-icon {
   text-decoration: none;
   color: #fff;
 }
 
-.social-link{
+.social-link {
   text-align: center;
   padding: 35px 0;
   border-bottom: 1px solid #363434;
 }
 
-.social-icon{
+.social-icon {
   width: 50px;
   margin-right: 20px;
 }
 
-.copy-right{
+.copy-right {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 28px 0 75px 0;
   font-family: "Inter", sans-serif;
 }
-
-
